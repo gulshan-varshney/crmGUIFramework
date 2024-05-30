@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.DataDrivenTesting.SeleniumTestReadDataFromRuntime">
+      <class name="practice.Basics.GetproductInfoTest">
         <methods>
-          <include name="seleniumTest"/>
-          <include name="runCMD"/>
+          <include name="getProductInfoTest" invocation-numbers="4"/>
         </methods>
-      </class> <!-- practice.DataDrivenTesting.SeleniumTestReadDataFromRuntime -->
+      </class> <!-- practice.Basics.GetproductInfoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
